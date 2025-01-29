@@ -19,6 +19,10 @@
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.7",
     "react-dom": "^18.3.1",
+<<<<<<< HEAD
+=======
+  
+>>>>>>> 6a94e51f28b578f13bb1e1f7adc815d10aba05d4
     "react-router-dom": "^7.1.1",
     "react-slick": "^0.30.3",
     "react-toastify": "^11.0.3",
