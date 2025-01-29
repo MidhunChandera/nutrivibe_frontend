@@ -13,7 +13,7 @@ function Product() {
   useEffect(() => {
     const fetchProduct = async () => {
       try {
-        const response = await fetch("http://localhost:4004/api/product/single", {
+        const response = await fetch("https://nutrivibe-backend.onrender.com/api/product/single", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

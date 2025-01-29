@@ -9,7 +9,7 @@ const StoreContextProvider = (props) => {
   const [cartitems, setcartitems] = useState({});
   const [token, settoken] = useState(null); 
   const [productdata, setproductdata] = useState([]);
-  const apiurl = "http://localhost:4004/api/product/list";
+  const apiurl = "https://nutrivibe-backend.onrender.com/api/product/list";
   const navigate=useNavigate()
   useEffect(() => {
     const fetchdata = async () => {
@@ -45,7 +45,7 @@ const StoreContextProvider = (props) => {
   
     try {
       await axios.post(
-        "http://localhost:4004/api/cart/add",
+        "https://nutrivibe-backend.onrender.com/api/cart/add",
         { itemid },
         { headers: { token } }
       );
@@ -64,7 +64,7 @@ const StoreContextProvider = (props) => {
     });
     if (token) {
       try {
-        await axios.post('http://localhost:4004/api/cart/remove', { itemid }, { headers: { token } });
+        await axios.post('https://nutrivibe-backend.onrender.com/api/cart/remove', { itemid }, { headers: { token } });
       } catch (error) {
         console.error("Error removing item from cart:", error);
       }
@@ -72,7 +72,7 @@ const StoreContextProvider = (props) => {
   }
   const loadcartdata = async (token) => {
     try {
-      const response = await axios.post('http://localhost:4004/api/cart/get', {}, { headers: { token } });
+      const response = await axios.post('https://nutrivibe-backend.onrender.com/api/cart/get', {}, { headers: { token } });
     console.log(response.data);
     setcartitems(response.data)
     // Set cart items from response (ensure it defaults to an empty object if no data)

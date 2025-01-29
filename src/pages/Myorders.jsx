@@ -11,7 +11,7 @@ function Myorders() {
   const fetchUserOrders = async () => {
     try {
       const response = await axios.post(
-        "http://localhost:4004/api/order/userorder",
+        "https://nutrivibe-backend.onrender.com/api/order/userorder",
         {},
         { headers: { token } }
       );

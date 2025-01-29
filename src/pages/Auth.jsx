@@ -4,8 +4,8 @@ import axios from "axios";
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 const Auth = ({ register }) => {
-  const loginurl = "http://localhost:4004/api/user/login";
-  const registerurl = "http://localhost:4004/api/user/register";
+  const loginurl = "https://nutrivibe-backend.onrender.com/api/user/login";
+  const registerurl = "https://nutrivibe-backend.onrender.com/api/user/register";
   const [userDetails, setUserDetails] = useState({
     username: "",
     email: "",
