@@ -1,0 +1,29 @@
+[33mcommit 0dcb4ac1eebda5f196c0495101b75e4da8d842d4[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: MidhunChandera <kmidhun666@gmail.com>
+Date:   Wed Jan 29 23:41:26 2025 +0530
+
+    Resolved peer dependency issuesd
+
+[33mcommit e9c213d8e57455885454d76bbea40b2f83e2753c[m
+Author: MidhunChandera <kmidhun666@gmail.com>
+Date:   Wed Jan 29 23:36:51 2025 +0530
+
+    Resolved peer dependency issues
+
+[33mcommit 731d2d4af8e2aad6c2c32147ff588b6f91305453[m
+Author: MidhunChandera <kmidhun666@gmail.com>
+Date:   Wed Jan 29 23:30:08 2025 +0530
+
+    Updated dependencies with --legacy-peer-deps to resolve conflicts
+
+[33mcommit 5689de05ece4fa7ce9311c95f224d9c8ef6b6f15[m
+Author: MidhunChandera <kmidhun666@gmail.com>
+Date:   Wed Jan 29 23:02:07 2025 +0530
+
+    frontend
+
+[33mcommit 08b33200e0a8ff2319c15b4e887a289b8a53df9e[m
+Author: MidhunChandera <kmidhun666@gmail.com>
+Date:   Wed Jan 29 22:12:29 2025 +0530
+
+    finalfrontend
